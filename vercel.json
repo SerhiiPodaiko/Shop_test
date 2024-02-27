@@ -1,8 +1,13 @@
 {
-  "routes": [
+  "headers": [
     {
-      "src": "/[^.]+",
-      "dest": "/"
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "x-robots-tag",
+          "value": "index, follow"
+        }
+      ]
     }
   ]
 }
