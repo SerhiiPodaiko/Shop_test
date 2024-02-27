@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020", "DOM"],
+    "types": ["node"],
+    "target": "es5",
+    "checkJs": true,
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      "@/assets/*": ["assets/*"],
+      "@/components/*": ["components/*"],
+      "@/styles/*": ["styles/*"],
+      "@/services/*": ["services/*"],
+      "@/ui/*": ["ui/*"],
+      "@/constants/*": ["constants/*"],
+      "@/context/*": ["context/*"]
+    }
+},
+  "include": ["src/**/*", "*"],
+  "references": [{ "path": "./jsconfig.node.json" }]
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*outline: 2px solid red;*/
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+body.disabled {
+  overflow: hidden;
+}
+
+/* =================================== */
+
+.content {
+  padding: 20px 40px;
+}
+
+@media (max-width: 800px) {
+  .content {
+    padding: 20px;
+  }
+}

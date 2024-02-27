@@ -1,0 +1,31 @@
+.alert {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+
+  &__message {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+.alert-success {
+  background: #5AE4A6;
+  color: white;
+}
+
+.alert-error {
+  background: #FD2501;
+  color: white;
+}
+
+.alert-info {
+  background: #333333;
+  color: white;
+}
