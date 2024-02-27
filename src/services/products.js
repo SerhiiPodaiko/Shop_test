@@ -1,8 +1,10 @@
+import { productsData } from './productsData'
+
 export const fetchGetAllProducts = async () => {
   try {
-    const response = await fetch('/products.json')
+    const response = productsData
 
-    return await response.json()
+    return response
   } catch (error) {
     console.log(error.message)
     throw new Error(error.message)

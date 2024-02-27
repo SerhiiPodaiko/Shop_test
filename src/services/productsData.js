@@ -1,8 +1,8 @@
-[
+export const productsData = [
   {
     "name": "puma",
     "price": "4990 грн",
-    "img": "../src/assets/images/snikers/1 (1).webp",
+    "img": "../assets/images/snikers/1 (1).webp",
     "art": "00001",
     "color": "white",
     "id": 0
@@ -10,7 +10,7 @@
   {
     "name": "north-face",
     "price": "5000 грн",
-    "img": "../src/assets/images/snikers/1 (2).webp",
+    "img": "../assets/images/snikers/1 (2).webp",
     "art": "00002",
     "color": "blue",
     "id": 1
@@ -18,7 +18,7 @@
   {
     "name": "nike",
     "price": "4590 грн",
-    "img": "../src/assets/images/snikers/1.webp",
+    "img": "../assets/images/snikers/1.webp",
     "art": "00003",
     "color": "black",
     "id": 2
@@ -26,7 +26,7 @@
   {
     "name": "nike",
     "price": "4890 грн",
-    "img": "../src/assets/images/snikers/2.webp",
+    "img": "../assets/images/snikers/2.webp",
     "art": "00004",
     "color": "white",
     "id": 3
@@ -34,7 +34,7 @@
   {
     "name": "adidas",
     "price": "3890 грн",
-    "img": "../src/assets/images/snikers/MAIN (1).webp",
+    "img": "../assets/images/snikers/MAIN (1).webp",
     "art": "00005",
     "color": "white",
     "id": 4
@@ -42,7 +42,7 @@
   {
     "name": "mustang",
     "price": "7890 грн",
-    "img": "../src/assets/images/snikers/MAIN (2).webp",
+    "img": "../assets/images/snikers/MAIN (2).webp",
     "art": "00006",
     "color": "white",
     "id": 5
@@ -50,7 +50,7 @@
   {
     "name": "buggatti",
     "price": "4290 грн",
-    "img": "../src/assets/images/snikers/MAIN (2).webp",
+    "img": "../assets/images/snikers/MAIN (2).webp",
     "art": "00007",
     "color": "white",
     "id": 6
@@ -58,7 +58,7 @@
   {
     "name": "nike",
     "price": "1890 грн",
-    "img": "../src/assets/images/snikers/MAIN (3).webp",
+    "img": "../assets/images/snikers/MAIN (3).webp",
     "art": "00008",
     "color": "red",
     "id": 7
@@ -66,7 +66,7 @@
   {
     "name": "mustang",
     "price": "2890 грн",
-    "img": "../src/assets/images/snikers/MAIN (4).webp",
+    "img": "../assets/images/snikers/MAIN (4).webp",
     "art": "00009",
     "color": "white",
     "id": 8
@@ -74,7 +74,7 @@
   {
     "name": "nike",
     "price": "4890 грн",
-    "img": "../src/assets/images/snikers/MAIN.webp",
+    "img": "../assets/images/snikers/MAIN.webp",
     "art": "00010",
     "color": "white",
     "id": 9
@@ -82,7 +82,7 @@
   {
     "name": "gucci",
     "price": "4890 грн",
-    "img": "../src/assets/images/snikers/MAIN (1).webp",
+    "img": "../assets/images/snikers/MAIN (1).webp",
     "art": "00011",
     "color": "white",
     "id": 10
